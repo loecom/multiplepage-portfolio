@@ -28,7 +28,7 @@ export const globalConfig = {
   },
   footer: {
     aria: "Footer Navigation",
-    copyright: "© 2025 我的回家之路 | 设计制作: 酒破儿",
+    copyright: "© 2025 我的回家之路 | 设计制作: 酒破儿    <a href='https://beian.miit.gov.cn/' target='_blank'>浙ICP备2025203608号-1</a>",
     social: {
       twitter: "https://x.com/loecom",
       github: "https://github.com/loecom",
