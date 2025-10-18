@@ -1,7 +1,7 @@
 export const globalConfig = {
   site: {
     name: "我的回家之路",
-    author: "酒破儿",
+    author: "我的回家之路",
     description: "我的回家之路",
     url: "/"
   },
