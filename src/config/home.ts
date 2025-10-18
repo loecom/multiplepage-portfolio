@@ -2,7 +2,7 @@ export const homeConfig = {
   greeting: "大家好，我是酒破儿！",
   description: '每个人的生命中都有属于自己的"回家之路"。对我而言，这条路不仅是地理上的归途，更是心灵的回归。从[起点]到[终点]，这段旅程教会了我[学到的道理或感悟]。在路上，我遇到了[重要的人或事]，这些经历塑造了今天的我。回家之路并非一帆风顺，有迷茫、有困惑，但每一次转弯都让我更加接近真实的自己。',
   buttons: {
-    viewProjects: "查看旅途",
-    readPosts: "阅读文章"
+    viewProjects: "查看心得",
+    readPosts: "阅读故事"
   }
 } as const 
