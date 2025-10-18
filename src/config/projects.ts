@@ -1,8 +1,8 @@
 export const projectsConfig = {
-  title: "Our Projects",
-  description: "Here you can showcase your best work. Each project should include a brief description, the technologies used, and any notable achievements. This helps potential clients or employers understand your capabilities.",
-  backButton: "Back to Home",
-  noProjects: "No projects found.",
+  title: "我的心得",
+  description: "这里写我的一些生活中的体会和心得",
+  backButton: "返回主页",
+  noProjects: "没找到心得",
   items: [
     {
       title: "Project One",
