@@ -66,8 +66,8 @@ export const siteConfig = {
     noPosts: "没发现故事",
     searchPlaceholder: "按标题筛选...",
     pagination: {
-      previous: "上一篇",
-      next: "下一篇"
+      previous: "上一页",
+      next: "下一页"
     },
     items: [
       {
