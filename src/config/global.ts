@@ -30,6 +30,7 @@ export const globalConfig = {
     aria: "Footer Navigation",
     copyright: "© 2025 我的回家之路 | 设计制作: 酒破儿",
     social: {
+      twitter: "https://x.com/loecom",
       github: "https://github.com/loecom",
       email: "loecomm@qq.com"
     }
