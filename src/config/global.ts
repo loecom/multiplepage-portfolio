@@ -13,11 +13,11 @@ export const globalConfig = {
         href: "/"
       },
       {
-        title: "项目",
+        title: "心得",
         href: "/projects"
       },
       {
-        title: "文章",
+        title: "故事",
         href: "/posts"
       },
       {
