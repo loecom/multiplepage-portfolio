@@ -14,6 +14,16 @@ export default function Footer() {
         <p className="mt-2 text-sm text-neutral-700 dark:text-neutral-100 sm:ml-4 sm:pl-4 sm:border-l sm:border-neutral-300 dark:sm:border-neutral-700 sm:mt-0">
           {globalConfig.footer.copyright}
         </p>
+        <p className="mt-2 text-sm text-neutral-700 dark:text-neutral-100 sm:ml-4 sm:pl-4 sm:border-l sm:border-neutral-300 dark:sm:border-neutral-700 sm:mt-0">
+          <a
+            href={globalConfig.footer.link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline text-neutral-600 dark:text-neutral-300"
+          >
+            {globalConfig.footer.link.text}
+          </a>
+        </p>
         <span className="inline-flex justify-center mt-2 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
           <a href={globalConfig.footer.social.twitter} target="_blank" className="text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white">
             <span className="sr-only">𝕏</span>
