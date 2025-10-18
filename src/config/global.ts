@@ -1,38 +1,37 @@
 export const globalConfig = {
   site: {
-    name: "Your Portfolio Name",
-    author: "Your Name",
-    description: "A brief description of your portfolio website",
+    name: "我的回家之路",
+    author: "酒破儿",
+    description: "我的回家之路",
     url: "/"
   },
   navigation: {
     aria: "Main Navigation",
     items: [
       {
-        title: "Home",
+        title: "主页",
         href: "/"
       },
       {
-        title: "Projects",
+        title: "项目",
         href: "/projects"
       },
       {
-        title: "Posts",
+        title: "文章",
         href: "/posts"
       },
       {
-        title: "About",
+        title: "关于",
         href: "/about"
       }
     ]
   },
   footer: {
     aria: "Footer Navigation",
-    copyright: "© 2025 Your Name. All rights reserved.",
+    copyright: "© 2025 我的回家之路 | 设计制作: 酒破儿",
     social: {
-      twitter: "https://x.com/TencentCloudEO",
-      github: "https://github.com/TencentEdgeOne",
-      email: "media_service@tencent.com"
+      github: "https://github.com/loecom",
+      email: "loecomm@qq.com"
     }
   }
 } as const; 
