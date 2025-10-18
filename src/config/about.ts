@@ -1,6 +1,6 @@
 export const aboutConfig = {
   title: "关于酒破儿",
-  description: "This is where you can introduce yourself or your company. Share your story, mission, and values. Explain what makes you unique and why people should be interested in your work. Keep it concise but engaging.",
+  description: "我叫酒破儿。五岁那年，爹像盏被风吹灭的油灯；七岁，娘也化成坟头青草。从此天地是我的屋檐，野果是午饭，溪水是镜子。在桥洞下裹紧捡来的棉袄，数星星——哪两颗是你们在看我？我不苦。风是我爹，雨是我娘。就是……有点想闻闻爹的旱烟味，再让娘用糙手替我擦次脸。",
   image: "/assets/images/about.jpg",
   stats: [
     {
@@ -17,14 +17,6 @@ export const aboutConfig = {
     },
   ],
   skills: [
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "Docker",
-    "Git",
-    "AWS"
   ],
   experience: {
     title: "经历",
