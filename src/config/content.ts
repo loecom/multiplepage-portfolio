@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Someone's Portfolio",
-  description: "A showcase of my work and thoughts",
+  name: "我的回家之路",
+  description: "我的回家之路",
   nav: {
     home: "Home",
     posts: "Posts",
@@ -8,18 +8,18 @@ export const siteConfig = {
     about: "About"
   },
   home: {
-    greeting: "Hello, I'm Kai.",
-    description: "A passionate frontend developer with a keen eye for design and a love for creating beautiful, functional web experiences.",
+    greeting: "大家好，我是酒破儿！",
+    description: '每个人的生命中都有属于自己的"回家之路"。对我而言，这条路不仅是地理上的归途，更是心灵的回归。从[起点]到[终点]，这段旅程教会了我[学到的道理或感悟]。在路上，我遇到了[重要的人或事]，这些经历塑造了今天的我。回家之路并非一帆风顺，有迷茫、有困惑，但每一次转弯都让我更加接近真实的自己。',
     buttons: {
-      viewProjects: "View Projects",
-      readPosts: "Read Posts"
+      viewProjects: "查看心得",
+      readPosts: "阅读文章"
     }
   },
   projects: {
-    title: "My Projects",
-    description: "Here are some of the current projects I've been working on. I really enjoy creating new projects and coming up with new ideas. I'm always working on something new, so check back often!",
-    backButton: "Back to Home",
-    noProjects: "No projects found.",
+    title: "我的心得",
+    description: "这里写我的一些体验和心得",
+    backButton: "返回主页",
+    noProjects: "没找到心得",
     items: [
       {
         title: "TempMail.Best",
@@ -60,14 +60,14 @@ export const siteConfig = {
     ]
   },
   posts: {
-    title: "My Writing",
-    description: "My thoughts and ideas about technology and development.",
-    backButton: "Back to Home",
-    noPosts: "No posts found matching your search.",
-    searchPlaceholder: "Filter posts by title...",
+    title: "我的故事",
+    description: "这里写我的故事",
+    backButton: "返回主页",
+    noPosts: "没发现故事",
+    searchPlaceholder: "按标题筛选...",
     pagination: {
-      previous: "Previous",
-      next: "Next"
+      previous: "上一页",
+      next: "下一页"
     },
     items: [
       {
@@ -153,12 +153,12 @@ export const siteConfig = {
     ]
   },
   about: {
-    title: "About",
-    description: "Learn more about me and my journey.",
-    backButton: "Back to Home"
+    title: "关于",
+    description: "简单介绍我自己。",
+    backButton: "返回主页"
   },
   theme: {
-    dayMode: "Day mode",
-    nightMode: "Night mode"
+    dayMode: "",
+    nightMode: ""
   }
 } as const 

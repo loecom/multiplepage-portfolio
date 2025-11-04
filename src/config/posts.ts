@@ -2,14 +2,14 @@
 import { Post } from '@/types/post';
 
 export const postsConfig = {
-  "title": "Blog Posts",
-  "description": "Technical articles, tutorials, and insights about web development and EdgeOne platform.",
-  "backButton": "Back to Home",
-  "noPosts": "No posts found matching your search.",
-  "searchPlaceholder": "Search posts by title...",
+  "title": "我的故事",
+  "description": "这里写我的故事",
+  "backButton": "返回主页",
+  "noPosts": "没发现故事",
+  "searchPlaceholder": "按标题筛选...",
   "pagination": {
-    "previous": "Previous",
-    "next": "Next"
+    "previous": "前一页",
+    "next": "后一页"
   },
   "posts": [
     {
